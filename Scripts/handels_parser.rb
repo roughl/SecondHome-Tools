@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 #Encoding: UTF-8
 require 'date'
-$Debug = 1
-$Version = "0.2.3-debug"
+$Debug = 0
+$Version = "0.2.3"
 
 def dputs(arg)
   if $Debug == 1
@@ -98,8 +98,23 @@ def parsefile(file)
     puts " ERROR! parsefile(<file>) <file> must be class File"
     return
   end
+  start_of_message = false
+  $messages = []
+  message = ""
   file.each_line() do |line|
-    dputs "Got #{ line.dump }"
+    dputs "Got " + line 
+
+	match_von=/Botschaft von: ([\w+ ])/.match(line)
+	if(match_von)
+	  dputs "von hat gematcht :)"
+	  start_of_message = true
+	  message = ""
+	end
+
+	if start_of_message
+	  message += line
+	end
+	  
     
     match_name=/Eines Eurer Handelsangebote wurde angenommen. ([\w+ ]+) bezahlte/.match(line)
     if not match_name
@@ -107,9 +122,11 @@ def parsefile(file)
       match_name=/Ein Schmuggler von ([\w+ ]+) ist heute bei uns eingetroffen./.match(line)
     end
 
-    match_datum=/Wurde Euch überbracht am: (\d+\. \w+ \d+ \d+:\d+)/.match(line)
+    match_datum=/Wurde Euch überbracht am: (\d+\. [\wäöü]+ \d+ \d+:\d+)/.match(line)
     if(match_datum)
       dputs "ein datum hat gematcht :)"
+	  start_of_message = false
+	  $messages << message
     end
     
     match_bezug=/für (\d+) ([\wäöü]+)/.match(line)
@@ -168,15 +185,17 @@ else
       puts "usage: ./handels_parser.rb <inputfile 1> ... <inputfile n>"
     end
     puts "Parsing "+arg
-    parsefile(File.new(arg, "r"))
+	file = File.new(arg, "r")
+    parsefile(file)
+	file.close
   end
 end
 
 
-
-
-
-
+#$messages.each do |message|
+#  puts message
+#  puts "------------"
+#end
 
 # print all data out
 $kunden.each do |kunde|
@@ -195,7 +214,3 @@ $kunden.each do |kunde|
   end
 end
 
-
-
-
-#File.close
