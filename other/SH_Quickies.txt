@@ -1,29 +1,29 @@
 -Quicklink  	https://sequania.second-home.org/Pages/Einstellungen/Einstellungen.php#quick
 Kredit  	https://sequania.second-home.org/Pages/Handel/Handel_angebote.php?pre=7
-Truppen  	https://sequania.second-home.org/Pages/Militaer/Militaer.php?
-Schiffe  	https://sequania.second-home.org/Pages/Schiffe/Schiffe.php?
-Zentr. Verw.  	https://sequania.second-home.org/Pages/Militaer/Militaer_zentrale_verwaltung.php?
-Kampfsimulator  	https://sequania.second-home.org/Pages/Militaer/Militaer_simulator.php?
-Baustellen  	https://sequania.second-home.org/Pages/Spieler/Spieler_baustellen.php?
-Provinzübersicht  	https://sequania.second-home.org/Pages/Spieler/Spieler_provinzen.php?
+Truppen  	https://sequania.second-home.org/Pages/Militaer/Militaer.php
+Schiffe  	https://sequania.second-home.org/Pages/Schiffe/Schiffe.php
+Zentr. Verw.  	https://sequania.second-home.org/Pages/Militaer/Militaer_zentrale_verwaltung.php
+Kampfsimulator  	https://sequania.second-home.org/Pages/Militaer/Militaer_simulator.php
+Baustellen  	https://sequania.second-home.org/Pages/Spieler/Spieler_baustellen.php
+Provinzübersicht  	https://sequania.second-home.org/Pages/Spieler/Spieler_provinzen.php
 Mitglieder  	https://sequania.second-home.org/Pages/Allianzen/Allianz_mitglieder_ansehen.php?sort=4
-Spione  	https://sequania.second-home.org/Pages/Spionage/Spione.php?
-Flottenverband		https://sequania.second-home.org/Pages/Schiffe/Schiff_flottenverband.php?
+Spione  	https://sequania.second-home.org/Pages/Spionage/Spione.php
+Flottenverband		https://sequania.second-home.org/Pages/Schiffe/Schiff_flottenverband.php
 
 PFAFFE:
 Mitglieder  	https://sequania.second-home.org/Pages/Allianzen/Allianz_mitglieder_ansehen.php?sort=5
-hBibliothek	https://sequania.second-home.org/Pages/Pfarrer/Forschung_angebot_eintragen.php?
+hBibliothek	https://sequania.second-home.org/Pages/Pfarrer/Forschung_angebot_eintragen.php
 
 -Quicklink  	https://noricum.second-home.org/Pages/Einstellungen/Einstellungen.php#quick
 Kredit  	https://noricum.second-home.org/Pages/Handel/Handel_angebote.php?pre=7
-Truppen  	https://noricum.second-home.org/Pages/Militaer/Militaer.php?
-Schiffe  	https://noricum.second-home.org/Pages/Schiffe/Schiffe.php?
-Zentr. Verw.  	https://noricum.second-home.org/Pages/Militaer/Militaer_zentrale_verwaltung.php?
-Kampfsimulator  	https://noricum.second-home.org/Pages/Militaer/Militaer_simulator.php?
-Baustellen  	https://noricum.second-home.org/Pages/Spieler/Spieler_baustellen.php?
-Provinzübersicht  	https://noricum.second-home.org/Pages/Spieler/Spieler_provinzen.php?
+Truppen  	https://noricum.second-home.org/Pages/Militaer/Militaer.php
+Schiffe  	https://noricum.second-home.org/Pages/Schiffe/Schiffe.php
+Zentr. Verw.  	https://noricum.second-home.org/Pages/Militaer/Militaer_zentrale_verwaltung.php
+Kampfsimulator  	https://noricum.second-home.org/Pages/Militaer/Militaer_simulator.php
+Baustellen  	https://noricum.second-home.org/Pages/Spieler/Spieler_baustellen.php
+Provinzübersicht  	https://noricum.second-home.org/Pages/Spieler/Spieler_provinzen.php
 Mitglieder  	https://noricum.second-home.org/Pages/Allianzen/Allianz_mitglieder_ansehen.php?sort=4
-Spione  	https://noricum.second-home.org/Pages/Spionage/Spione.php?
+Spione  	https://noricum.second-home.org/Pages/Spionage/Spione.php
 
 PFAFFE:
 Mitglieder  	https://noricum.second-home.org/Pages/Allianzen/Allianz_mitglieder_ansehen.php?sort=5
