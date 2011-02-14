@@ -1,5 +1,5 @@
 -Quicklink  	https://sequania.second-home.org/Pages/Einstellungen/Einstellungen.php#quick
-Arbeiter
+Arbeiter		https://sequania.second-home.org/Pages/Dorf/Dorf_arbeiter_soeldner_uebersicht.php?pid=10613
 Baustellen  	https://sequania.second-home.org/Pages/Spieler/Spieler_baustellen.php
 cBibliothek
 
